@@ -1,0 +1,68 @@
+/*
+PARAMETROS GENERALES
+*/
+:root{
+    font-family: 'Heebo', sans-serif;
+}
+
+header,
+body, 
+h1, 
+h2,
+h3,
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #F2F2F2;
+}
+main{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+/*
+HEADER
+*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 10px  ;
+    box-shadow: inset 0px 0px 5px #E5E5E5  ;
+    background-color: #F2F2F2;
+    
+}
+.header__logo{
+    display: flex;
+    height: 100px;
+}
+.header__menu a{
+    display: flex;
+    margin-top: 20px;
+    padding: 40px 30px 0 0;
+    margin: 0 ;
+    float: left;
+}
+/*
+MAIN
+*/
+.libro__espaciado{
+    /*Espaciado entre las portadas de los libros del catalogo*/
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+.libro__tamaño img{
+    /*Hacer que todas las portadas de los libros tengan el mismo tamaño*/
+    width: 200px;
+    height: 300px;
+}
+
