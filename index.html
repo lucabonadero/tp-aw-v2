@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookchanger - Home</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="assets/bookchangerlogo.png">
+    <link rel="icon" href="assets/icon.png  ">
     <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
 </head>
 <body>
@@ -24,35 +24,110 @@
         <p>Here you can find a huge catalogue of books, from the most popular to the most unknown ones. You can also find books in different languages.</p>
         <h3>How does it work?</h3>
         <p>It's very simple. You just have to select the book you want to change and complete the data!</p>
+
+        <!--BARRA DE BUSQUEDA-->
+        <div class="barrabusqueda__contenedor">
+            <h3 class="contenedor__titulo">Browse our collection</h3>
+            <div class="barrabusqueda__tamaño">
+                    <input type="text" placeholder="Search..." >
+                <button class="barrabusqueda__boton"> <img src="assets/lupa.png" alt="Search" class="barrabusqueda__boton"></img></button>
+            </div>
+            
+        </div>
+        <div class="parientes__div">
+
+            <!--CONTENEDOR FILTRADO Y REDES-->
+        <div class="contenedor__principal">
+            <div>
+                <h3 class="titulo__contenedorfiltrado">Categories</h3>
+
+                <div class="botonesfiltrado__contenedor">
+                    <button class="botones__filtrado__estilo">Self Improvement</button>
+                    <button class="botones__filtrado__estilo">Sci-Fi</button>
+                    <button class="botones__filtrado__estilo">Mystery</button>
+                    <button class="botones__filtrado__estilo">Comedy</button>
+                    <button class="botones__filtrado__estilo">Biography</button>
+                    <button class="botones__filtrado__estilo">Fiction</button>
+                    <button class="botones__filtrado__estilo">Food</button>
+                    <button class="botones__filtrado__estilo">Graphic Design</button>
+                    <button class="botones__filtrado__estilo">Romance</button>
+                    <button class="botones__filtrado__estilo">Terror</button>
+                    <button class="botones__filtrado__estilo">Drama</button>
+
+                </div>
+                
+            </div>
+            <div>
+                <h3 class="titulo__contenedorchangers   ">Top changers</h3>
+                <div class="contenedor__changers">
+                    <img src="assets/changer1.png" alt="changer1">
+                    <h4 class="titulo__imagenes">Agus Rasero</h4>
+                    <p class="descripcion__contenedorchangers">2433 Published Books</p>
+                </div>
+
+                <div class="contenedor__changers">
+                    <img src="assets/changer2.png" alt="changer1">
+                    <h4 class="titulo__imagenes">Esteban Abregu</h4>
+                    <p class="descripcion__contenedorchangers">2121 Published Books</p>
+                </div>
+
+                <div class="contenedor__changers">
+                    <img src="assets/changer3.png" alt="changer1">
+                        <h4 class="titulo__imagenes">Valen Bonacci</h4>
+                        <p class="descripcion__contenedorchangers">1021 Published Books</p>      
+                </div>
+
+                
+            </div>
+        </div>
+
         <!--CATALOGO DE LIBROS-->
-        <div> <!--Contenedor para el catalogo de libros-->
-            <h3>Book catalogue</h3>
+        
+        <div class="libros__contenedor"> <!--Contenedor para el catalogo de libros-->
             <figure class="libro__espaciado">
-                <img src="assets/book1.jpg" alt="book1" class="libro__espaciado">
-                <figcaption>Coma</figcaption>
+                <img src="assets/book1.png" alt="book1" class="libro__tamaño">
+                <figcaption class="libro__titulo">Coma</figcaption>
+                <figcaption class="libro__descripcion">Author: Martin Palermo</figcaption>
+                <figcaption class="libro__descripcion">State: Used</figcaption>
+            </figure>
             </figure>
             <figure class="libro__espaciado">
-                <img src="assets/book2.jpg" alt="book2" class="libro__espaciado">
-                <figcaption>Desgracia</figcaption>
+                <img src="assets/book2.png" alt="book2" class="libro__tamaño">
+                <figcaption class="libro__titulo">Desgracia</figcaption>
+                <figcaption class="libro__descripcion">Author: Juan Roman Riquelme</figcaption>
+                <figcaption class="libro__descripcion">State: New</figcaption>
             </figure>
             <figure class="libro__espaciado">
-                <img src="assets/book3.jpg" alt="book3" class="libro__espaciado">
-                <figcaption>El destape</figcaption>
+                <img src="assets/book3.png" alt="book3" class="libro__tamaño">
+                <figcaption class="libro__titulo">El destape</figcaption>
+                <figcaption class="libro__descripcion">Author: Matias Fernandez</figcaption>
+                <figcaption class="libro__descripcion">State: Used</figcaption>
             </figure>
             <figure class="libro__espaciado">
-                <img src="assets/book4.jpg" alt="book4" class="libro__espaciado">
-                <figcaption>Harry Potter y la Piedra Filosofal</figcaption>
+                <img src="assets/book4.png" alt="book4" class="libro__tamaño">
+                <figcaption class="libro__titulo">Harry Potter y la Piedra Filosofal</figcaption>
+                <figcaption class="libro__descripcion">Author: JK Rowling</figcaption>
+                <figcaption class="libro__descripcion">State: Used</figcaption>
             </figure>
             <figure class="libro__espaciado">
-                <img src="assets/book5.jpg" alt="book5" class="libro__espaciado">
-                <figcaption>El silencio</figcaption>
+                <img src="assets/book5.png" alt="book5" class="libro__tamaño">
+                <figcaption class="libro__titulo">El silencio</figcaption>
+                <figcaption class="libro__descripcion">Author: Julian Alvarez</figcaption>
+                <figcaption class="libro__descripcion">State: New</figcaption>
             </figure>
             <figure class="libro__espaciado">
-                <img src="assets/book6.jpg" alt="book6" class="libro__espaciado">
-                <figcaption>La naranja mecanica</figcaption>
+                <img src="assets/book6.png" alt="book6" class="libro__tamaño">
+                <figcaption class="libro__titulo">La naranja mecanica</figcaption>
+                <figcaption class="libro__descripcion">Author: Lautaro Martinez</figcaption>
+                <figcaption class="libro__descripcion">State: New</figcaption>
             </figure>
             
         </div>
+
+        </div>
+        
+        
+        
         
     </main>
     <footer>
