@@ -9,24 +9,35 @@
     <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
 </head>
 <body>
+
+
     <header class="header">
-        <img src="assets/bookchangerlogov2.png" alt="Bookchanger logo" class="header__logo">
+        <img src="assets/bookchangerlogov4.png" alt="Bookchanger logo" class="header__logo">
         <nav class="header__menu">
             <a href="index.html">Home</a>
             <a href="aboutus.html">About us</a>
             <a href="contact.html">Contact</a>
         </nav>
     </header>
+
+
+
     <main>
-        <h1>Welcome!</h1>
-        <h2>This is your top website to change your books.</h2>
-        <h2>Our huge book catalogue</h2>    
-        <p>Here you can find a huge catalogue of books, from the most popular to the most unknown ones. You can also find books in different languages.</p>
-        <h3>How does it work?</h3>
-        <p>It's very simple. You just have to select the book you want to change and complete the data!</p>
+        <div class="burbuja-izquierda">
+            <h1>Welcome!</h1>
+            <h2>This is your top website to change your books.</h2>
+            <p>Here you can find a huge catalogue of books, from the most popular to the most unknown ones. You can also find books in different languages.</p>
+            <a href="#" class="enlace-destacado">Learn more</a>
+          </div>
+          
+          <div class="burbuja-derecha">
+            <h1>How does it work?</h1>
+            <p>It's very simple. You just have to select the book you want to change and complete the data!</p>
+          </div>
+          
 
         <!--BARRA DE BUSQUEDA-->
-        <div class="barrabusqueda__contenedor">
+        <div class="barrabusqueda__contenedor"> <!--barra busquedasolo-->
             <h3 class="contenedor__titulo">Browse our collection</h3>
             <div class="barrabusqueda__tamaño">
                     <input type="text" placeholder="Search..." >
@@ -61,13 +72,13 @@
                 <h3 class="titulo__contenedorchangers   ">Top changers</h3>
                 <div class="contenedor__changers">
                     <img src="assets/changer1.png" alt="changer1">
-                    <h4 class="titulo__imagenes">Agus Rasero</h4>
+                    <h4 class="titulo__imagenes">Diego Maradona</h4>
                     <p class="descripcion__contenedorchangers">2433 Published Books</p>
                 </div>
 
                 <div class="contenedor__changers">
                     <img src="assets/changer2.png" alt="changer1">
-                    <h4 class="titulo__imagenes">Esteban Abregu</h4>
+                    <h4 class="titulo__imagenes">Lautaro Martinez</h4>
                     <p class="descripcion__contenedorchangers">2121 Published Books</p>
                 </div>
 
@@ -126,12 +137,30 @@
 
         </div>
         
-        
-        
-        
     </main>
-    <footer>
-        <p>Bookchanger &copy; 2023</p>
-    </footer>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        
+        <div class="redes-sociales">
+          <a href="#" class="footer__redes-sociales"><img src="assets/facebook.png" alt="Facebook" class="footer__redes-sociales"></a>
+          <a href="#" class="footer__redes-sociales"><img src="assets/twitter.png" alt="Twitter"></a>
+          <a href="#" class="footer__redes-sociales"><img src="assets/instagram.png" alt="Instagram"></a>
+          <a href="#" class="footer__redes-sociales"><img src="assets/linkedin.png" alt="LinkedIn"></a>
+        
+        <div class="footer__informacion-contacto">
+          <h4 class="footer__titulos">Contacto:</h4>
+          <p>Email: bonaderoluca@gmail.com</p>
+          <p>Phone: +543584876533</p>
+        </div>
+        
+        <div class="footer__ubicacion">
+          <h4 class="footer__titulos">Location:</h4>
+          <p>Adress: Rondeau 123, Cordoba Capital</p>
+          <p>Postal Code: 5000</p>
+        </div>
+
+      </footer>
+      
 </body>
 </html>
