@@ -1,0 +1,28 @@
+{
+        "books":[
+            {
+                "image":"./assets/book1.png ",
+                "title": "Coma",
+                "author": "Martin Palermo",
+                "state": "Used"
+    
+            },
+            {
+                "image":"./assets/book2.png",
+                "title": "Desgracia",
+                "author": "Juan Roman Riquelme",
+                "state": "New"
+    
+            },
+            {
+                "image":"./assets/book3.png",
+                "title": "El destape",
+                "author": "Matias Fernandez",
+                "state": "Used"
+    
+            }
+    
+    
+        ]
+        
+}

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="assets/icon.png  ">
     <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+    <script type="module" src="./principal.js"></script>
 </head>
 <body>
 
@@ -23,144 +24,106 @@
 
 
     <main>
-        <div class="burbuja-izquierda">
-            <h1>Welcome!</h1>
-            <h2>This is your top website to change your books.</h2>
-            <p>Here you can find a huge catalogue of books, from the most popular to the most unknown ones. You can also find books in different languages.</p>
-            <a href="#" class="enlace-destacado">Learn more</a>
-          </div>
-          
-          <div class="burbuja-derecha">
-            <h1>How does it work?</h1>
-            <p>It's very simple. You just have to select the book you want to change and complete the data!</p>
-          </div>
+
+        <section class="introduccion">
+            <div class="introduccion__contenedor-welcome">
+                <h1>Welcome!</h1>
+                <h2>This is your top website to change your books.</h2>
+                <p>Here you can find a huge catalogue of books, from the most popular to the most unknown ones. You can also find books in different languages.</p>
+                <a href="aboutus.html">Learn more</a>
+              </div>
+              
+              <div class="introduccion__contenedor-hditw">
+                <h1>How it Works?</h1>
+                <p>It's very simple. You just have to select the book you want to change and complete the data!</p>
+              </div>
+        </section>
+        
           
 
         <!--BARRA DE BUSQUEDA-->
-        <div class="barrabusqueda__contenedor"> <!--barra busquedasolo-->
-            <h3 class="contenedor__titulo">Browse our collection</h3>
-            <div class="barrabusqueda__tamaño">
-                    <input type="text" placeholder="Search..." >
-                <button class="barrabusqueda__boton"> <img src="assets/lupa.png" alt="Search" class="barrabusqueda__boton"></img></button>
+        
+        <section class="barrabusqueda">
+
+            <div class="barrabusqueda__contenedor">
+                <h3>Browse our collection</h3>
+                <input type="text" placeholder="Search..." >
+                <button> <img src="assets/lupa.png" alt="Search" class="barrabusqueda__boton"></img></button>
             </div>
-            
-        </div>
-        <div class="parientes__div">
 
-            <!--CONTENEDOR FILTRADO Y REDES-->
-        <aside class="contenedor__principal">
-            <div>
-                <h3 class="titulo__contenedorfiltrado">Categories</h3>
+        </section>
 
-                <div class="botonesfiltrado__contenedor">
-                    <button class="botones__filtrado__estilo">Self Improvement</button>
-                    <button class="botones__filtrado__estilo">Sci-Fi</button>
-                    <button class="botones__filtrado__estilo">Mystery</button>
-                    <button class="botones__filtrado__estilo">Comedy</button>
-                    <button class="botones__filtrado__estilo">Biography</button>
-                    <button class="botones__filtrado__estilo">Fiction</button>
-                    <button class="botones__filtrado__estilo">Food</button>
-                    <button class="botones__filtrado__estilo">Graphic Design</button>
-                    <button class="botones__filtrado__estilo">Romance</button>
-                    <button class="botones__filtrado__estilo">Terror</button>
-                    <button class="botones__filtrado__estilo">Drama</button>
 
-                </div>
+        <section class="coleccion-libros">
+            <section class="side-bar">
+                <aside>
+                    <div class="categorias">
+                        <h3>Categories</h3>
+                        <button>Self Improvement</button>
+                        <button>Sci-Fi</button>
+                        <button>Mystery</button>
+                        <button>Comedy</button>
+                        <button>Biography</button>
+                        <button>Fiction</button>
+                        <button>Food</button>
+                        <button>Graphic Design</button>
+                        <button>Romance</button>
+                        <button>Terror</button>
+                        <button>Drama</button>
+                    </div>
+
+                    <!--TOP CHANGERS-->
+                    <div class="top-changers">
+                        <h3>Top changers</h3>
+                        <div class="top-changers__contenedor-img-texto">
+                            <img src="assets/changer1.png" alt="changer1">
+                                <h4>Diego Maradona</h4>
+                                <p>2433 Published Books</p>
+                        </div>
+                        <div class="top-changers__contenedor-img-texto">
+                            <img src="assets/changer2.png" alt="changer1">
+                            <h4>Lautaro Martinez</h4>
+                            <p>2121 Published Books</p>
+                        </div>
+                        <div class="top-changers__contenedor-img-texto">
+                            <img src="assets/changer3.png" alt="changer1">
+                            <h4>Valen Bonacci</h4>
+                            <p>1021 Published Books</p>
+                        </div>    
+
+                    </div>
+
+                </aside>
+    
+            </section>
+            <!--CATALOGO DE LIBROS-->
+            <div id="catalogo-libros">
                 
             </div>
-            <div>
-                <h3 class="titulo__contenedorchangers   ">Top changers</h3>
-                <div class="contenedor__changers">
-                    <img src="assets/changer1.png" alt="changer1">
-                    <h4 class="titulo__imagenes">Diego Maradona</h4>
-                    <p class="descripcion__contenedorchangers">2433 Published Books</p>
-                </div>
 
-                <div class="contenedor__changers">
-                    <img src="assets/changer2.png" alt="changer1">
-                    <h4 class="titulo__imagenes">Lautaro Martinez</h4>
-                    <p class="descripcion__contenedorchangers">2121 Published Books</p>
-                </div>
-
-                <div class="contenedor__changers">
-                    <img src="assets/changer3.png" alt="changer1">
-                        <h4 class="titulo__imagenes">Valen Bonacci</h4>
-                        <p class="descripcion__contenedorchangers">1021 Published Books</p>      
-                </div>
-
-                
-            </div>
-        </aside>
-
-        <!--CATALOGO DE LIBROS-->
-        
-        <div class="libros__contenedor"> <!--Contenedor para el catalogo de libros-->
-            <figure class="libro__espaciado">
-                <img src="assets/book1.png" alt="book1" class="libro__tamaño">
-                <figcaption class="libro__titulo">Coma</figcaption>
-                <figcaption class="libro__descripcion">Author: Martin Palermo</figcaption>
-                <figcaption class="libro__descripcion">State: Used</figcaption>
-            </figure>
-            </figure>
-            <figure class="libro__espaciado">
-                <img src="assets/book2.png" alt="book2" class="libro__tamaño">
-                <figcaption class="libro__titulo">Desgracia</figcaption>
-                <figcaption class="libro__descripcion">Author: Juan Roman Riquelme</figcaption>
-                <figcaption class="libro__descripcion">State: New</figcaption>
-            </figure>
-            <figure class="libro__espaciado">
-                <img src="assets/book3.png" alt="book3" class="libro__tamaño">
-                <figcaption class="libro__titulo">El destape</figcaption>
-                <figcaption class="libro__descripcion">Author: Matias Fernandez</figcaption>
-                <figcaption class="libro__descripcion">State: Used</figcaption>
-            </figure>
-            <figure class="libro__espaciado">
-                <img src="assets/book4.png" alt="book4" class="libro__tamaño">
-                <figcaption class="libro__titulo">Harry Potter y la Piedra Filosofal</figcaption>
-                <figcaption class="libro__descripcion">Author: JK Rowling</figcaption>
-                <figcaption class="libro__descripcion">State: Used</figcaption>
-            </figure>
-            <figure class="libro__espaciado">
-                <img src="assets/book5.png" alt="book5" class="libro__tamaño">
-                <figcaption class="libro__titulo">El silencio</figcaption>
-                <figcaption class="libro__descripcion">Author: Julian Alvarez</figcaption>
-                <figcaption class="libro__descripcion">State: New</figcaption>
-            </figure>
-            <figure class="libro__espaciado">
-                <img src="assets/book6.png" alt="book6" class="libro__tamaño">
-                <figcaption class="libro__titulo">La naranja mecanica</figcaption>
-                <figcaption class="libro__descripcion">Author: Lautaro Martinez</figcaption>
-                <figcaption class="libro__descripcion">State: New</figcaption>
-            </figure>
-            
-        </div>
-
-        </div>
-        
+        </section>
+           
     </main>
 
     <!--FOOTER-->
-    <footer class="footer">
+    <footer>
         
-        <div class="redes-sociales">
-          <a href="#" class="footer__redes-sociales"><img src="assets/facebook.png" alt="Facebook" class="footer__redes-sociales"></a>
-          <a href="#" class="footer__redes-sociales"><img src="assets/twitter.png" alt="Twitter"></a>
-          <a href="#" class="footer__redes-sociales"><img src="assets/instagram.png" alt="Instagram"></a>
-          <a href="#" class="footer__redes-sociales"><img src="assets/linkedin.png" alt="LinkedIn"></a>
-        
+        <div class="footer__redes-sociales">
+          <a href="#"><img src="assets/facebook.png" alt="Facebook"></a>
+          <a href="#"><img src="assets/twitter.png" alt="Twitter"></a>
+          <a href="#"><img src="assets/instagram.png" alt="Instagram"></a>
+          <a href="#"><img src="assets/linkedin.png" alt="LinkedIn"></a>
+        </div>
+
         <div class="footer__informacion-contacto">
-          <h4 class="footer__titulos">Contacto:</h4>
+          <h4>Contact:</h4>
           <p>Email: bonaderoluca@gmail.com</p>
           <p>Phone: +543584876533</p>
-        </div>
-        
-        <div class="footer__ubicacion">
-          <h4 class="footer__titulos">Location:</h4>
+          <h4>Location:</h4>
           <p>Adress: Rondeau 123, Cordoba Capital</p>
           <p>Postal Code: 5000</p>
         </div>
-
-      </footer>
+    </footer>
       
 </body>
 </html>
