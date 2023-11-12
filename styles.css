@@ -474,11 +474,59 @@ MAIN ABOUTUS.HTML
 
 
 /****************************************/
+/*
+MAIN CONTACTUS.HTML
+*/
+.imagen-contactus__contenedor{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
 
 
+}
+.imagen-contactus__contenedor img{
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #ccc;
+    transition: all 0.4s ease-in-out;
 
+}
+.imagen-contactus__contenedor img:hover{
+    transform: scale(1.1);
+    border-radius: 20%;
+    box-shadow: 0px 0px 5px #000000;
+}
+.formulario__contenedor{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    
+}
+.formulario__contenedor h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.formulario__contenedor input,textarea{
+    align-items: left;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
 
-  /**********************FOOTER**************************/
+.formulario__contenedor-pariente{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+/**********************FOOTER**************************/
 .footer {
     background-color: #161618;
     color: #fff;
