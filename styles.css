@@ -85,7 +85,7 @@ header:hover{
 
 
 /*
-MAIN
+MAIN INDEX.HTML
 */
 .parientes__div{
     display: flex;
@@ -409,6 +409,72 @@ MAIN
 
 /****************************************/
 /****************************************/
+
+
+/*
+MAIN ABOUTUS.HTML
+*/
+.nuestroequipo__contenedorimagenes{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.nuestroequipo__contenedorimagenes img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 0px 0px 5px #ccc;
+    transition: all 0.3s ease-in-out;
+}
+.nuestroequipo__contenedorimagenes h3{
+    font-size: 30px;
+    text-wrap: wrap;
+
+}
+.nuestroequipo__contenedorimagenes p{
+    vertical-align: bottom;
+    display: table-cell;
+    color: gray;
+
+}
+.nuestroequipo__contenedorimagenes figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    text-align: center;
+}
+
+.quienes-somos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+.quienes-somos h1{
+    font-weight: bolder;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.quienes-somos p{
+    width: 55%;
+    font-weight: lighter;
+    font-size: 20px;
+    color: rgb(94, 92, 92);
+}
+
+
+/****************************************/
+
 
 
 
