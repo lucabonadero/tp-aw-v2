@@ -540,29 +540,29 @@ aside{
     width: 50px;
     height: 50px;
   }
-  .footer__redes-sociales{
-    display: flex;
-    order: 2;
-    margin-top: 20px;
-  }
-  .footer__redes-sociales a{
-    margin-top: 20px;
-    font-size: 24px;
-    color: #fff;
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
-  }
-  .footer__redes-sociales img{
-    width: 50px;
-    height: 50px;
-    transition: all 0.2s ease-in-out;
-  }
-
-  .footer__redes-sociales img:hover{
-    transform: skew(10deg);
-
-  }
-  .footer__informacion-contacto{
+  .footer__redes-sociales{  
+    display: flex;  
+    order: 2;   
+    margin-top: 20px;   
+  } 
+  .footer__redes-sociales a{    
+    margin-top: 20px;   
+    font-size: 24px;    
+    color: #fff;    
+    text-decoration: none;  
+    transition: all 0.2s ease-in-out;   
+  } 
+  .footer__redes-sociales img{  
+    width: 50px;    
+    height: 50px;   
+    transition: all 0.2s ease-in-out;   
+  } 
+  
+  .footer__redes-sociales img:hover{    
+    transform: skew(10deg); 
+    
+  } 
+  .footer__informacion-contacto{    
     display: flex;
     flex-direction: column;
     margin-top: 20px;
